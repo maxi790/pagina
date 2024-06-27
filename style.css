@@ -49,3 +49,15 @@ nav ul li a:hover{
     color: black;
     border-radius: 10px;
 }
+section{
+    padding: 32px o;
+}
+section h2,section p{
+    text-align: center;
+
+}
+section p{
+    padding: 0 40px;
+}
+
+
