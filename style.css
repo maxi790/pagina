@@ -66,23 +66,7 @@ form{
      footer {
         background-color: #333;
         color: white;
-        padding: 16px 0;
+        padding: 05px 0;
         text-align: center;
         clear: both; /* Add this to ensure the footer clears any floating elements */
-      }
-      
-      footer p {
-        margin: 0;
-        padding: 0 10px;
-      }
-      
-      footer a {
-        color: rgb(252, 252, 252);
-        text-decoration: none;
-      }
-      
-      footer a:hover {
-        background: white;
-        color: #333;
-        border-radius: 10px;
       }
