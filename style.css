@@ -21,7 +21,7 @@
 }
 
 
-nav ul{
+nav ul li{
     list-style: none;
 display: flex;
 justify-content: center;
