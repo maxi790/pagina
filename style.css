@@ -6,32 +6,36 @@
 }
 .body{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.header h1{
+    text-align: center;
 }
 
 .header{
     background-color: black;
     color: white;
-
+    padding: 16px 0;
+    
+    
 }
-
-
 
 
 nav ul{
     list-style: none;
+display: flex;
+justify-content: center;
 }
 
 .nav ul li a{
     color: white;
     text-decoration: none;
+    padding: 8px 16px;
+}
 
+.nav ul li{
+margin: 16px;
 }
 
 
 
-
-nav ul li a{
-    color: black;
-    text-decoration: none;
-
-}
