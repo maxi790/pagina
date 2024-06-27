@@ -4,6 +4,12 @@
     
 
 }
+.header{
+    background-color: black;
+    color: white;
+
+}
+
 
 
 
@@ -11,7 +17,11 @@ nav ul{
     list-style: none;
 }
 
-
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
 
 
 
