@@ -31,6 +31,7 @@ nav ul li a{
     color: rgb(252, 252, 252);
     text-decoration: none;
     padding: 8px 16px;
+
     
     }
     
@@ -38,36 +39,87 @@ nav ul li a:hover{
     background: white;
     color: #333;
     border-radius: 10px;
-
-
 }
+
+section div ul li{
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    list-style: none;
+}
+
+
 section{
     padding: 24px;
-    
+
 }
-section h2,section p{
+section h2,section p,section ul{
     text-align: center;
     color:#333
 }
 section p{
-    padding: 0px 40px;
+    padding: 0px 40;
 }
-div ul{
-    list-style: none;
-    text-align: center;
-    padding: 8px 0;
-    color: #333;
+
+section ul li{
+    padding: 8px;
 }
 form{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     }
-     
-     footer {
-        background-color: #333;
-        color: white;
-        padding: 05px 0;
-        text-align: center;
-        clear: both; /* Add this to ensure the footer clears any floating elements */
-      }
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form label{
+    margin-bottom: 8px;
+}
+
+form input, form textarea{
+    margin-bottom: 16px;
+    padding: 8px;
+} 
+form input,textarea{
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer; 
+    width: 100px;
+    margin: 5px 10px;
+}
+
+form button:hover{
+    background-color: #555;
+}
+.button-container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+
+}
+
+.button-delete:hover{
+    background-color: rgb(173, 22, 22,);
+}
+
+.button-delete:hover{
+    background-color: rgb(173, 13, 13,);
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
