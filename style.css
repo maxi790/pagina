@@ -24,8 +24,10 @@ nav ul {
 nav ul li{
     margin: 0 16px;
 }
-
-
+body {
+	background: url(sofi.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
 
 nav ul li a{
     color: rgb(252, 252, 252);
